@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3F220CC21EC8C8CA0042E9F8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F220CC11EC8C8CA0042E9F8 /* AppDelegate.swift */; };
+		3F220CC41EC8C8CA0042E9F8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F220CC31EC8C8CA0042E9F8 /* ViewController.swift */; };
+		3F220CC71EC8C8CA0042E9F8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F220CC51EC8C8CA0042E9F8 /* Main.storyboard */; };
+		3F220CCA1EC8C8CA0042E9F8 /* BallUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3F220CC81EC8C8CA0042E9F8 /* BallUp.xcdatamodeld */; };
+		3F220CCC1EC8C8CA0042E9F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F220CCB1EC8C8CA0042E9F8 /* Assets.xcassets */; };
+		3F220CCF1EC8C8CA0042E9F8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F220CCD1EC8C8CA0042E9F8 /* LaunchScreen.storyboard */; };
+		3F220CDA1EC8C8CA0042E9F8 /* BallUpTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F220CD91EC8C8CA0042E9F8 /* BallUpTests.swift */; };
+		3F220CE51EC8C8CA0042E9F8 /* BallUpUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F220CE41EC8C8CA0042E9F8 /* BallUpUITests.swift */; };
+		3F220CF31EC8D3520042E9F8 /* BasketballCourtViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F220CF21EC8D3520042E9F8 /* BasketballCourtViewController.swift */; };
+		3F682FF01ECBE1BA0070E222 /* InstructionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F682FEF1ECBE1BA0070E222 /* InstructionsViewController.swift */; };
+		3F682FF21ECD50000070E222 /* StatsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F682FF11ECD50000070E222 /* StatsViewController.swift */; };
+		3F682FF41ED12E730070E222 /* PlayerInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F682FF31ED12E730070E222 /* PlayerInfo.swift */; };
+		3FF0DF4F1ED14C0E00A61FB7 /* SaveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0DF4E1ED14C0E00A61FB7 /* SaveViewController.swift */; };
+		3FF0DF511ED152E000A61FB7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF0DF501ED152E000A61FB7 /* SecondViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3F220CD61EC8C8CA0042E9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F220CB61EC8C8C90042E9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F220CBD1EC8C8C90042E9F8;
+			remoteInfo = BallUp;
+		};
+		3F220CE11EC8C8CA0042E9F8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F220CB61EC8C8C90042E9F8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F220CBD1EC8C8C90042E9F8;
+			remoteInfo = BallUp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3F220CBE1EC8C8CA0042E9F8 /* BallUp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BallUp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F220CC11EC8C8CA0042E9F8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F220CC31EC8C8CA0042E9F8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F220CC61EC8C8CA0042E9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F220CC91EC8C8CA0042E9F8 /* BallUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BallUp.xcdatamodel; sourceTree = "<group>"; };
+		3F220CCB1EC8C8CA0042E9F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F220CCE1EC8C8CA0042E9F8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F220CD01EC8C8CA0042E9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F220CD51EC8C8CA0042E9F8 /* BallUpTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallUpTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F220CD91EC8C8CA0042E9F8 /* BallUpTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallUpTests.swift; sourceTree = "<group>"; };
+		3F220CDB1EC8C8CA0042E9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F220CE01EC8C8CA0042E9F8 /* BallUpUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BallUpUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F220CE41EC8C8CA0042E9F8 /* BallUpUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BallUpUITests.swift; sourceTree = "<group>"; };
+		3F220CE61EC8C8CA0042E9F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F220CF21EC8D3520042E9F8 /* BasketballCourtViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BasketballCourtViewController.swift; sourceTree = "<group>"; };
+		3F682FEF1ECBE1BA0070E222 /* InstructionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InstructionsViewController.swift; sourceTree = "<group>"; };
+		3F682FF11ECD50000070E222 /* StatsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatsViewController.swift; sourceTree = "<group>"; };
+		3F682FF31ED12E730070E222 /* PlayerInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlayerInfo.swift; sourceTree = "<group>"; };
+		3FF0DF4E1ED14C0E00A61FB7 /* SaveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SaveViewController.swift; sourceTree = "<group>"; };
+		3FF0DF501ED152E000A61FB7 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3F220CBB1EC8C8C90042E9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F220CD21EC8C8CA0042E9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F220CDD1EC8C8CA0042E9F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3F220CB51EC8C8C90042E9F8 = {
+			isa = PBXGroup;
+			children = (
+				3F220CC01EC8C8CA0042E9F8 /* BallUp */,
+				3F220CD81EC8C8CA0042E9F8 /* BallUpTests */,
+				3F220CE31EC8C8CA0042E9F8 /* BallUpUITests */,
+				3F220CBF1EC8C8CA0042E9F8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3F220CBF1EC8C8CA0042E9F8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3F220CBE1EC8C8CA0042E9F8 /* BallUp.app */,
+				3F220CD51EC8C8CA0042E9F8 /* BallUpTests.xctest */,
+				3F220CE01EC8C8CA0042E9F8 /* BallUpUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3F220CC01EC8C8CA0042E9F8 /* BallUp */ = {
+			isa = PBXGroup;
+			children = (
+				3F220CC11EC8C8CA0042E9F8 /* AppDelegate.swift */,
+				3F220CC31EC8C8CA0042E9F8 /* ViewController.swift */,
+				3F220CF21EC8D3520042E9F8 /* BasketballCourtViewController.swift */,
+				3F682FF31ED12E730070E222 /* PlayerInfo.swift */,
+				3F682FEF1ECBE1BA0070E222 /* InstructionsViewController.swift */,
+				3F682FF11ECD50000070E222 /* StatsViewController.swift */,
+				3FF0DF4E1ED14C0E00A61FB7 /* SaveViewController.swift */,
+				3FF0DF501ED152E000A61FB7 /* SecondViewController.swift */,
+				3F220CC51EC8C8CA0042E9F8 /* Main.storyboard */,
+				3F220CCB1EC8C8CA0042E9F8 /* Assets.xcassets */,
+				3F220CCD1EC8C8CA0042E9F8 /* LaunchScreen.storyboard */,
+				3F220CD01EC8C8CA0042E9F8 /* Info.plist */,
+				3F220CC81EC8C8CA0042E9F8 /* BallUp.xcdatamodeld */,
+			);
+			path = BallUp;
+			sourceTree = "<group>";
+		};
+		3F220CD81EC8C8CA0042E9F8 /* BallUpTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F220CD91EC8C8CA0042E9F8 /* BallUpTests.swift */,
+				3F220CDB1EC8C8CA0042E9F8 /* Info.plist */,
+			);
+			path = BallUpTests;
+			sourceTree = "<group>";
+		};
+		3F220CE31EC8C8CA0042E9F8 /* BallUpUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3F220CE41EC8C8CA0042E9F8 /* BallUpUITests.swift */,
+				3F220CE61EC8C8CA0042E9F8 /* Info.plist */,
+			);
+			path = BallUpUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3F220CBD1EC8C8C90042E9F8 /* BallUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F220CE91EC8C8CA0042E9F8 /* Build configuration list for PBXNativeTarget "BallUp" */;
+			buildPhases = (
+				3F220CBA1EC8C8C90042E9F8 /* Sources */,
+				3F220CBB1EC8C8C90042E9F8 /* Frameworks */,
+				3F220CBC1EC8C8C90042E9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BallUp;
+			productName = BallUp;
+			productReference = 3F220CBE1EC8C8CA0042E9F8 /* BallUp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3F220CD41EC8C8CA0042E9F8 /* BallUpTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F220CEC1EC8C8CA0042E9F8 /* Build configuration list for PBXNativeTarget "BallUpTests" */;
+			buildPhases = (
+				3F220CD11EC8C8CA0042E9F8 /* Sources */,
+				3F220CD21EC8C8CA0042E9F8 /* Frameworks */,
+				3F220CD31EC8C8CA0042E9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F220CD71EC8C8CA0042E9F8 /* PBXTargetDependency */,
+			);
+			name = BallUpTests;
+			productName = BallUpTests;
+			productReference = 3F220CD51EC8C8CA0042E9F8 /* BallUpTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3F220CDF1EC8C8CA0042E9F8 /* BallUpUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F220CEF1EC8C8CA0042E9F8 /* Build configuration list for PBXNativeTarget "BallUpUITests" */;
+			buildPhases = (
+				3F220CDC1EC8C8CA0042E9F8 /* Sources */,
+				3F220CDD1EC8C8CA0042E9F8 /* Frameworks */,
+				3F220CDE1EC8C8CA0042E9F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F220CE21EC8C8CA0042E9F8 /* PBXTargetDependency */,
+			);
+			name = BallUpUITests;
+			productName = BallUpUITests;
+			productReference = 3F220CE01EC8C8CA0042E9F8 /* BallUpUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F220CB61EC8C8C90042E9F8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Student;
+				TargetAttributes = {
+					3F220CBD1EC8C8C90042E9F8 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = X97CVE5UDY;
+						ProvisioningStyle = Automatic;
+					};
+					3F220CD41EC8C8CA0042E9F8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F220CBD1EC8C8C90042E9F8;
+					};
+					3F220CDF1EC8C8CA0042E9F8 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3F220CBD1EC8C8C90042E9F8;
+					};
+				};
+			};
+			buildConfigurationList = 3F220CB91EC8C8C90042E9F8 /* Build configuration list for PBXProject "BallUp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3F220CB51EC8C8C90042E9F8;
+			productRefGroup = 3F220CBF1EC8C8CA0042E9F8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F220CBD1EC8C8C90042E9F8 /* BallUp */,
+				3F220CD41EC8C8CA0042E9F8 /* BallUpTests */,
+				3F220CDF1EC8C8CA0042E9F8 /* BallUpUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3F220CBC1EC8C8C90042E9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F220CCF1EC8C8CA0042E9F8 /* LaunchScreen.storyboard in Resources */,
+				3F220CCC1EC8C8CA0042E9F8 /* Assets.xcassets in Resources */,
+				3F220CC71EC8C8CA0042E9F8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F220CD31EC8C8CA0042E9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F220CDE1EC8C8CA0042E9F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3F220CBA1EC8C8C90042E9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F220CCA1EC8C8CA0042E9F8 /* BallUp.xcdatamodeld in Sources */,
+				3FF0DF4F1ED14C0E00A61FB7 /* SaveViewController.swift in Sources */,
+				3F220CC41EC8C8CA0042E9F8 /* ViewController.swift in Sources */,
+				3FF0DF511ED152E000A61FB7 /* SecondViewController.swift in Sources */,
+				3F220CC21EC8C8CA0042E9F8 /* AppDelegate.swift in Sources */,
+				3F220CF31EC8D3520042E9F8 /* BasketballCourtViewController.swift in Sources */,
+				3F682FF21ECD50000070E222 /* StatsViewController.swift in Sources */,
+				3F682FF01ECBE1BA0070E222 /* InstructionsViewController.swift in Sources */,
+				3F682FF41ED12E730070E222 /* PlayerInfo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F220CD11EC8C8CA0042E9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F220CDA1EC8C8CA0042E9F8 /* BallUpTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F220CDC1EC8C8CA0042E9F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F220CE51EC8C8CA0042E9F8 /* BallUpUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3F220CD71EC8C8CA0042E9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F220CBD1EC8C8C90042E9F8 /* BallUp */;
+			targetProxy = 3F220CD61EC8C8CA0042E9F8 /* PBXContainerItemProxy */;
+		};
+		3F220CE21EC8C8CA0042E9F8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3F220CBD1EC8C8C90042E9F8 /* BallUp */;
+			targetProxy = 3F220CE11EC8C8CA0042E9F8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3F220CC51EC8C8CA0042E9F8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F220CC61EC8C8CA0042E9F8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3F220CCD1EC8C8CA0042E9F8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3F220CCE1EC8C8CA0042E9F8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3F220CE71EC8C8CA0042E9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3F220CE81EC8C8CA0042E9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3F220CEA1EC8C8CA0042E9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X97CVE5UDY;
+				INFOPLIST_FILE = BallUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.BallUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		3F220CEB1EC8C8CA0042E9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = X97CVE5UDY;
+				INFOPLIST_FILE = BallUp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.BallUp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		3F220CED1EC8C8CA0042E9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BallUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.BallUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallUp.app/BallUp";
+			};
+			name = Debug;
+		};
+		3F220CEE1EC8C8CA0042E9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BallUpTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.BallUpTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BallUp.app/BallUp";
+			};
+			name = Release;
+		};
+		3F220CF01EC8C8CA0042E9F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BallUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.BallUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BallUp;
+			};
+			name = Debug;
+		};
+		3F220CF11EC8C8CA0042E9F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BallUpUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = BHS.BallUpUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BallUp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3F220CB91EC8C8C90042E9F8 /* Build configuration list for PBXProject "BallUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F220CE71EC8C8CA0042E9F8 /* Debug */,
+				3F220CE81EC8C8CA0042E9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F220CE91EC8C8CA0042E9F8 /* Build configuration list for PBXNativeTarget "BallUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F220CEA1EC8C8CA0042E9F8 /* Debug */,
+				3F220CEB1EC8C8CA0042E9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F220CEC1EC8C8CA0042E9F8 /* Build configuration list for PBXNativeTarget "BallUpTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F220CED1EC8C8CA0042E9F8 /* Debug */,
+				3F220CEE1EC8C8CA0042E9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3F220CEF1EC8C8CA0042E9F8 /* Build configuration list for PBXNativeTarget "BallUpUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F220CF01EC8C8CA0042E9F8 /* Debug */,
+				3F220CF11EC8C8CA0042E9F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		3F220CC81EC8C8CA0042E9F8 /* BallUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				3F220CC91EC8C8CA0042E9F8 /* BallUp.xcdatamodel */,
+			);
+			currentVersion = 3F220CC91EC8C8CA0042E9F8 /* BallUp.xcdatamodel */;
+			path = BallUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 3F220CB61EC8C8C90042E9F8 /* Project object */;
+}
